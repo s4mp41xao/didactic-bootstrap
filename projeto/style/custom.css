@@ -1,11 +1,27 @@
 section {
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 4rem; 
 }
 
 input,
 textarea {
     margin-bottom: 1rem;
+}
+
+#img-logo {
+
+}
+
+.nav-link {
+    color: #ffa01c;
+    font-family: "Nunito";
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.a-nav-link:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
 }
 
 .card {
@@ -14,3 +30,49 @@ textarea {
     margin: 5px;
 }
 
+.btn-primary {
+    color: #ffa01c;
+    position: absolute;
+    left: 33%;
+    --bs-btn-border-radius: 2rem;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-padding-y: 0.45rem;
+    background-image: linear-gradient(to right, #D11151, #DB4A61, #F38F1E, #EB7733);
+    background-size: 300% 100%
+}
+
+.btn-primary:hover{
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.btn-success {
+    color: #ffa01c;
+    background-image: linear-gradient(to right, #D11151, #DB4A61, #F38F1E, #EB7733);
+    background-size: 300% 100%
+}
+
+.btn-success:hover{
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.btn {
+    --bs-btn-border-width: 0px !important;
+    font-family: "Nunito";
+    font-weight: 800;
+}
+
+.mx-auto {
+    margin-left: 5.80rem !important;
+    margin-top: 1rem;
+}
+
+.mx {
+    margin-top: 1rem;
+}
+
+h5.card-title,
+.card-text-plans {
+    text-align: center;
+}
