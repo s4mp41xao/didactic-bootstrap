@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" href="./style/custom.css">
     <title>Document</title>
 </head>
@@ -13,11 +13,12 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>Logo</h1>
+                    <img src="./images/logo.png" alt="">
                 </div>
                 <div class="col">
                     <ul class="nav justify-content-end">
                         <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#planos">Planos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
@@ -26,6 +27,128 @@
             </div>
         </div>
     </header>
+    <section id="planos">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Planos</h2>
+                    <div class="card">
+                        <img src="./images/plano-50mb.png" alt="" class="mx-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">Contrate 50 Ganhe 100</h5>
+                            <p class="card-text"> O Plano Crush reúne tudo de bonito nesta vida, o preço acessível e a qualidade que você merece.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-4">Ver Plano</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/plano-100mb.png" alt="" class="img-sm-thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Contrate 150 Ganhe 300</h5>
+                            <p class="card-text">Sabemos que você espera o dia todo para poder deitar no sofá e curtir sua maratona de séries a noite toda.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-5">Ver Plano</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/plano-300mb.png" alt="" class="mx-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">Contrate 500 Hipervelocidade</h5>
+                            <p class="card-text">Você quer dominar algumas partidas e lutar com seu esquadrão? Ou só quer a coreografia do Fortnite?</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-6">Ver Plano</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Contrate 50 Ganhe 100</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira a velocidade e o valor.</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Velocidade</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>100-Megabyte</td>
+                                    <td>R$ 83,90 até o vencimento, ou R$ 99,90 após.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-5">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Contrate 150 Ganhe 300</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira a velocidade e o valor.</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Velocidade</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>300 Megabyte</td>
+                                    <td>R$ 123,90 até o vencimento, ou R$ 149,90 após.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-6">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Contrate 500 Hipervelocidade</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira a velocidade e o valor.</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Velocidade</th>
+                                    <th>Valor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>500 Megabyte</td>
+                                    <td>R$ 169,99 até o vencimento, ou R$ 184,99 após.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     <section id="sobre">
         <div class="container">
             <div class="row">
@@ -110,11 +233,11 @@
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                     <div class="modal-body">
-                        <h6>Confira o modelo e o preço</h6>
+                        <h6>Confira o modelo e o preço.</h6>
                         <table class="table table-hover table-striped">
                             <thead>
                                 <tr>
-                                    <th>Modelo</th>
+                                    <th>Velocidade</th>
                                     <th>Valor</th>
                                 </tr>
                             </thead>
@@ -140,11 +263,11 @@
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h6>Confira o modelo e o preço</h6>
+                    <h6>Confira o modelo e o preço.</h6>
                     <table class="table table-hover table-striped">
                         <thead>
                             <tr>
-                                <th>Modelo</th>
+                                <th>Velocidade</th>
                                 <th>Valor</th>
                             </tr>
                         </thead>
@@ -170,11 +293,11 @@
                     <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h6>Confira o modelo e o preço</h6>
+                    <h6>Confira o modelo e o preço.</h6>
                     <table class="table table-hover table-striped">
                         <thead>
                             <tr>
-                                <th>Modelo</th>
+                                <th>Velocidade</th>
                                 <th>Valor</th>
                             </tr>
                         </thead>
@@ -192,6 +315,6 @@
             </div>
         </div>
     </div>
-    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

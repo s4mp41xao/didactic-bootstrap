@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style/custom.css">
     <title>Document</title>
 </head>
@@ -38,7 +39,7 @@
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
+                    </div>D
                 </div>
             </div>
             <div class="accordion-item">
@@ -69,13 +70,14 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./images/d-3antenas.jpg" class="d-block w-100" alt="...">
+                    <div class="ratio ratio-21x9">
+                        <img src="./images/d-3antenas.jpg" class="d-block w-100 " alt="...">
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/d-3antenas2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/m-ac1900.jpg" class="d-block w-100" alt="...">
+                    <div class="ratio ratio-21x9">
+                        <img src="./images/d-3antenas2.jpg" class="d-block w-100 opacity-75" alt="...">
+                    </div>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -88,7 +90,18 @@
             </button>
         </div>
     </div>
-    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <div class="container">
+        <div class="bg-dark clearfix bg-gradient">
+            <a name="" id="" class="btn btn-link float-start" href="#" role="button">Link</a>
+            <a name="" id="" class="btn btn-link link-danger float-start" href="#" role="button">Link</a>
+            <a name="" id="" class="btn link-dark float-start" href="#" role="button">Link</a>
+            <a name="" id="" class="btn link-dark float-start" href="#" role="button">Link</a>
+            <a name="" id="" class="btn btn-dark float-end" href="#" role="button">Button</a>
+            <a name="" id="" class="btn btn-light float-end" href="#" role="button">Button</a>
+        </div>
+    </div>
+    <i class="bi bi-5-square"></i>
+    <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>
         const myCarouselElement = document.querySelector('#carouselExampleFade')
         const carousel = new bootstrap.Carousel(myCarouselElement, {
