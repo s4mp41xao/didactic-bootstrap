@@ -8,14 +8,8 @@ textarea {
     margin-bottom: 1rem;
 }
 
-#img-logo {
-
-}
-
 .nav-link {
     color: #ffa01c;
-    font-family: "Nunito";
-    font-weight: 800;
     font-size: 1.2rem;
 }
 
@@ -38,7 +32,7 @@ textarea {
     --bs-btn-padding-x: 1rem;
     --bs-btn-padding-y: 0.45rem;
     background-image: linear-gradient(to right, #D11151, #DB4A61, #F38F1E, #EB7733);
-    background-size: 300% 100%
+    background-size: 300% 100%;
 }
 
 .btn-primary:hover{
@@ -49,7 +43,7 @@ textarea {
 .btn-success {
     color: #ffa01c;
     background-image: linear-gradient(to right, #D11151, #DB4A61, #F38F1E, #EB7733);
-    background-size: 300% 100%
+    background-size: 300% 100%;  
 }
 
 .btn-success:hover{
@@ -57,7 +51,7 @@ textarea {
     transition: all .4s ease-in-out;
 }
 
-.btn {
+.btn,.btn-success {
     --bs-btn-border-width: 0px !important;
     font-family: "Nunito";
     font-weight: 800;
@@ -72,7 +66,6 @@ textarea {
     margin-top: 1rem;
 }
 
-h5.card-title,
-.card-text-plans {
+h5.card-title, .card-text {
     text-align: center;
 }
